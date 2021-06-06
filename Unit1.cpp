@@ -16,6 +16,17 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 //---------------------------------------------------------------------------
 void __fastcall TForm1::Button1Click(TObject *Sender)
 {
-    ShowMessage("Hello World!");
+	ShowMessage("Hello World!");
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button2Click(TObject *Sender)
+{
+
+    ShowMessage("super!");
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+ShowMessage("može!");
 }
 //---------------------------------------------------------------------------
